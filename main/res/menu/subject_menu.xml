@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Study Helper
+    Hai-Au Bui
+    CSD 230
+    Professor Ballou-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/import_questions"
+        android:icon="@drawable/import_icon"
+        android:title="@string/import_questions"
+        app:showAsAction="ifRoom"/>
+
+
+    <item android:id="@+id/settings"
+        android:icon="@drawable/setting_icon"
+        android:title="@string/settings"
+        app:showAsAction="ifRoom"/>
+
+</menu>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Study Helper
+    Hai-Au Bui
+    CSD 230
+    Professor Ballou-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.lwtech.studyhelper">
+
+    <!-- Internet permission -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ImportActivity"
+            android:parentActivityName=".SubjectActivity"></activity>
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/settings"
+            android:parentActivityName=".SubjectActivity" />
+        <activity
+            android:name=".QuestionEditActivity"
+            android:parentActivityName=".QuestionActivity" />
+        <activity
+            android:name=".QuestionActivity"
+            android:launchMode="singleTop"
+            android:parentActivityName=".SubjectActivity" />
+        <activity android:name=".SubjectActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

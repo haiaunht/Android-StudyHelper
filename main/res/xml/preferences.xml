@@ -1,0 +1,30 @@
+<!--Study Helper
+    Hai-Au Bui
+    CSD 230
+    Professor Ballou-->
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="pref_theme"
+        android:title="@string/pref_title_theme"
+        android:summary="@string/pref_description_theme" />
+
+    <ListPreference
+        android:defaultValue="1"
+        android:entries="@array/pref_subject_order"
+        android:entryValues="@array/pref_subject_order_values"
+        android:key="pref_subject_order"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/pref_title_subject_order" />
+
+    <EditTextPreference
+        android:key="pref_default_question"
+        android:inputType="text"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:title="@string/pref_title_default_question" />
+
+</PreferenceScreen>

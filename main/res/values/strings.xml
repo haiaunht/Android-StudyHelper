@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Study Helper
+    Hai-Au Bui
+    CSD 230
+    Professor Ballou-->
+<resources>
+    <string name="app_name">Study Helper</string>
+    <string name="question_label">Q</string>
+    <string name="question_hint">Question</string>
+    <string name="answer_label">A</string>
+    <string name="answer_hint">Answer</string>
+    <string name="show_answer">Show Answer</string>
+    <string name="hide_answer">Hide Answer</string>
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+    <string name="add">Add</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="update">Update</string>
+    <string name="question_deleted">Question deleted.</string>
+    <string name="question_added">Question added.</string>
+    <string name="question_updated">Question updated.</string>
+    <string name="create">Create</string>
+    <string name="subject">New subject?</string>
+    <string name="cancel">Cancel</string>
+    <string name="update_question">Update Question</string>
+    <string name="add_question">Add Question</string>
+    <string name="no_questions">No questions exist for this subject.</string>
+    <string name="subject_exists">The subject "%1$s" already exists.</string>
+    <string name="question_number">%1$s (%2$d of %3$d)</string>
+    <string name="import_questions">Import</string>
+    <string name="select_subject">Select a subject:</string>
+    <string name="undo">Undo</string>
+    <string name="add_question_again">Please add your question again</string>
+
+    <!--string resource use for Preference-->
+    <string name="settings">Settings</string>
+    <string name="pref_title_theme">Dark theme</string>
+    <string name="pref_description_theme">Turn on dark theme</string>
+    <string name="pref_title_default_question">Default question</string>
+    <string name="pref_title_subject_order">Subject order</string>
+    <string name="pref_none">None</string>
+
+    <string-array name="pref_subject_order">
+        <item>Alphabetic</item>
+        <item>Most recent first</item>
+        <item>Oldest first</item>
+    </string-array>
+
+    <string-array name="pref_subject_order_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+</resources>

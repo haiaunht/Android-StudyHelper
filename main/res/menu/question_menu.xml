@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Study Helper
+    Hai-Au Bui
+    CSD 230
+    Professor Ballou-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/previous"
+        android:icon="@drawable/previous"
+        android:title="@string/previous"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/next"
+        android:icon="@drawable/next"
+        android:title="@string/next"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/add"
+        android:title="@string/add"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/edit"
+        android:title="@string/edit"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/delete"
+        android:title="@string/delete"
+        app:showAsAction="never"/>
+</menu>
